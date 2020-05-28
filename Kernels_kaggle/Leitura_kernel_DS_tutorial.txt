@@ -1,0 +1,80 @@
+#--- Leitura de Kernels:
+
+https://www.kaggle.com/kanncaa1/data-sciencetutorial-for-beginners 
+
+
+1. Dicas para gráficos:
+
+a) Gráficos de linha são melhores quando o eixo x é o tempo;
+b) Utilizar o scatterplot para verificar a correlação entre duas variáveis;
+c) Usar histograma para verificar as distribuições dos dados;
+d) Lembre-se de customizar o gráfico do seu jeito.
+
+2. Dicionários são mais rápidos que listas
+
+3. Docstrings: docmumentação de funções;
+
+4. Default arguments nas funções: def f(a, b = 1);
+
+5. Flexible arguments: def f(*args) pode ser um ou mais;
+
+6. def f(** kwargs), kwargs é um dicionário;
+
+7. List comprehension: 
+
+num1 = [1, 2, 3]
+num2 = [i + 1 for in num1]
+
+Result: [2, 3, 4]
+
+num1 = [5, 10, 15]
+num2 = [i**2 if i == 10 else i-5 if i < 7 else i+5 for i in num1]
+
+Result: [0, 100, 20]
+
+8. No bpxplot, outliers são menores que o Q1 - 1.5*(Q3-Q1) e maiores que Q3 + 1.5*(Q3-Q1)
+
+9. Tipos de dados: Object (string), boolean, integer, float and categorical;
+
+10. Valores faltantes:
+
+a) Dependendo do modelo, pode deixar lá;
+b) Excluir as obbservações que possuem o Nan;
+c) Preencher com a média, moda, mediana, etc;
+
+11. Pandas:
+
+a) Somente a coluna: Series;
+b) NaN: Not a Number;
+c) dataframe.values = numpy
+
+12. data.plot(subplots = True)
+
+13. data.plot(kind = "scatter", x = "Attack", y = "Defense")
+
+14. Resampling pandas time series
+
+a) Resampling, Downsampling, Upsampling
+b) Interpolação;
+
+15. Pandas
+
+a) data["HP"]: Series
+b) data[["HP"]]: DataFrame
+c) data.loc[1:10, "HP":"Defense"]
+d) Combinando filtros:
+
+first_filter = data.HP > 150
+second_filter = data.Speed > 35
+data[first_filter & second_filter]
+
+e) data["HP"].apply(function)
+f) data["HP"].apply(lambda x: function x)
+g) data["Col1"] = data["Col2"] + data["Col3"]
+
+h) Pivot: pd.pivot
+i) Melt: pd.melt
+j) groupby: groupby("treatment")["Age"].max()
+groupby("treatment")[["Age", "Response"]].max()
+
+

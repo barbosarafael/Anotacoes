@@ -1,0 +1,7 @@
+#--- Leitura de kernels: 
+
+https://www.kaggle.com/kanncaa1/machine-learning-tutorial-for-beginners
+
+a) Aprendizagem supervisionada:
+
+1. 

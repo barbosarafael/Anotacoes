@@ -1,0 +1,57 @@
+#--- Leitura de kernel: https://www.kaggle.com/kanncaa1/statistical-learning-tutorial-for-beginners
+
+
+1. HISTOGRAMA:
+
+
+- Quantas vezes cada valor aparece no dataset (distribuição);
+
+
+2. OUTLIERS:
+
+
+- Valores raros na distribuição dos dados;
+- Pode ser erro ou eventos raros (a ser invesetigados);
+- Calcular se é ou não outlier a partir do IQR (Intervalo interquartílico);
+- Boxplot.
+
+
+3. TAMANHO DO EFEITO:
+
+
+- Descreve o tamanho de um efeito;
+- Maneira de quantificar a diferença entre dois grupos;
+- O tamanho do efeito enfatiiza o tamanho da diferença;
+- Cohen: 0.2 (pequeno), 0.5 (médio) e 0.8 (grande) do efeito;
+- Comparar o efeito entre o tamanho médio dos tumores benignos e malignos 
+- 2.2: Muito grande, diz que os dois grupos possuem são diferentes um do outro;
+
+
+4. Relationship Between Variables
+
+- Podemos dizer que duas variáveis são relacionadas entre si, se ambas trazem informação uma da outra;
+- Exemplo, preço e distância;
+- Scatterplot;
+
+a) Correlação (Pearson):
+
+- Mede a força do relacionamento linear entre duas variáveis quantitativas;
+- Mas não é robusta se o relacionamento é não linear e se possui outliers;
+
+b) Covariância:
+
+- A covariância, ou variância conjunta, é uma medida do grau de interdependência (ou inter-relação) numérica entre duas variáveis aleatórias. Assim, variáveis independentes têm covariância zero (Wikipédia).
+
+- A covariância de duas variáveis X e Y é uma medida da variabilidade conjunta destas variáveis aleatórias. Se as variáveis tem covariância positiva tendem a mostrar um comportamento semelhante, ou seja, os menores (maiores) valores da variável X corresponde aos menores (maiores) da variável Y. Se a covariância é negativa então as variáveis tendem a mostrar um comportamento oposto, ou seja, os menores (maiores) valores da variável X corresponde aos menores (maiores) da variável Y (Portal Action).
+
+c) Correlação de Rank de Spearman:
+
+- Relação não linear entre duas variáveis;
+
+5. Teste de hipóteses
+
+- p-valor, testes estatísticos
+
+6. Distribuiição normal
+
+- Normal padrão, média 0 desvio padrão 1
