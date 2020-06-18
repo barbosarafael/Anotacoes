@@ -4,4 +4,4 @@ Este repositório ficarão as anotações dos cursos e kernels do Kaggle para ap
 
 ## Árvores de decisão 
 
-- [Regressão](https://github.com/barbosarafael/Anotacoes/blob/master/ML_Modelos/Arvore_de_decisao/arvore_de_decisao_regressao.ipynb)
+- [Regressão](https://github.com/barbosarafael/Anotacoes/blob/master/ML_Modelos/Arvore_de_decisao/arvore_de_decisao.ipynb)
